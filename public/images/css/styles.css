@@ -1,0 +1,26 @@
+body {
+    background-color: #EAC926;
+;
+}
+.precio{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.descuentos{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+h3{
+    font-size: 24px;
+    font-family: sans-serif;
+}
+h4{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.pago{
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+}
