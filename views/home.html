@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre | Home</title>
-    <link rel="stylesheet" href="/images/css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <script src="https://kit.fontawesome.com/ae7c764a16.js" crossorigin="anonymous"></script>
 </head>
 <body> 
     <header><div>
     <img src="/images/Logo Mercado Liebre.jpeg" alt="Logo">
     </div>
-    <div>Lugar para la barra de búsqueda</div>
-    <p>Comprá en cuotas y sin tarjeta de crédito</p>
+    <input type="text" placeholder="Busca productos, marcas" required><br>
+    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    <p><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
     <nav><ul>
         <li><a href="/Ofertas">Ofertas</a></li>
         <li><a href="/Tiendas oficiales">Tiendas Oficiales</a></li>
@@ -21,12 +22,21 @@
         <li><a href="/Ayuda">Ayuda</a></li>
     </ul></nav>
     <ul><nav>
-        <li><a href="/Creá tu cuenta">Creá tu cuenta</a></li><i class="fa-thin fa-address-card"></i>
+        <div><li><a href="/Creá tu cuenta">Creá tu cuenta</a><i class="fa-solid fa-id-card"></i></li></div>
         
-        <li><a href="/Ingresá">Ingresá</a></li>
-        <li><a href="/Mis compras">Mis compras</a></li>
-    </ul></nav></header>
-    <main><section>
+        <li><a href="/Ingresá">Ingresá</a><i class="fa-solid fa-arrow-right-to-bracket"></i></li>
+        <li><a href="/Mis compras">Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
+    </ul>
+    <button class="menu">
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+            </div></button>
+
+</head>
+</header>
+
+    <main>
+        <section>
     <img width="300" src="/images/Bunner.jpeg" alt="Bunner">
     
     <h3>Basado en tu última visita</h3>
@@ -49,9 +59,10 @@
 <p p class="precio">$23.200</p>
 <p p class="descunentos">5% off</p>
 <h4>SmartTv Samsung 43"</h4>
-</section></main>
-    
-<main><section>
+    </section>
+</main>    
+<main>
+    <section>
     <img width="300" src="/images/Bunner.jpeg" alt="Bunner">
     
     <h3>Sección de Ofertas</h3>
@@ -74,26 +85,33 @@
 <p p class="precio">$23.200</p>
 <p p class="descuentos">5% off</p>
 <h4>SmartTv Samsung 43"</h4>
-</section></main>
+    </section>
+</main>
 
 <footer>
-    <section p class="pago">
-        <ul><li><h4>Pagá con tarjeta o en efectivo</h4></li></ul>
-        <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+    <section class="pago">
+        <ul><a class="fa-solid__pie
+            "><i class="fa-solid fa-credit-card"></i></a><br>
+        <h4 class="pago-texto">Pagá con tarjeta o en efectivo</h4></ul>
+        <p class="text">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
     </section>
 
-    <section p class="pago">
-        <ul><li><h4>Envío gratis desde $ 2.500</h4></li></ul>
-        <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+    <section class="pago">
+        <ul><a class="fa-solid__pie
+            "><i class="fa-solid fa-gift"></i></a><br>
+        <h4>Envío gratis desde $ 2.500</h4></li></ul>
+        <p class="text">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
     </section>
 
-    <section p class="pago">
-        <ul><li><h4>Seguridad, de principio a fin</h4></li></ul>
-        <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+    <section class="pago">
+        <ul><a class="fa-solid__pie
+            "><i class="fa-solid fa-user-shield"></i></a><br>
+        <h4>Seguridad, de principio a fin</h4></ul>
+        <p class="text">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
     </section>
 
-    <section p class="pago">
-        <ul><li><h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4></li></ul>
+    <section class="pago">
+        <ul><h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4></ul>
     </section>
 </footer>
 
