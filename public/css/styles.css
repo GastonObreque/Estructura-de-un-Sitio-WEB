@@ -1,7 +1,7 @@
 header {
     background-color: #EAC926;
-;
 }
+
 .precio{
     font-size: 18px;
     font-family: sans-serif;
@@ -23,6 +23,7 @@ h4{
     font-size: 12px;
     text-align: center;
     font-family: sans-serif;
+    padding: 1px 24px;
 }
 .fa-solid__pie{
     color: #1259c3;
@@ -32,12 +33,9 @@ h4{
 .burger-menu{
     background-position: center;
 }
-.text{
-    background-position: center;
-}
 
-.fa-solid{
-    color: #03264C;
+.fa-solid__pie{
+    color: #1259c3;
 }
 .menu{
     color: #fff;
@@ -47,6 +45,16 @@ h4{
 
 .burger-menu{
     text-align: center;
-    justify-content: center;
-    align-items: center;
+}
+
+.pago-texto{
+    padding: 1px 5px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.final{
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: left;
 }
