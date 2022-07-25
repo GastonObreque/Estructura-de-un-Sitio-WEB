@@ -57,3 +57,19 @@ h4{
     text-align: center;
     padding: 3px 12px;
 }
+
+/* TABLET */
+@media (min-width : 768px){
+    /* HEADER */
+
+
+/* MAIN */
+
+main{
+    background-position: center;
+}
+img{
+    display: inline;
+    width: 230px;
+}
+}
