@@ -1,5 +1,11 @@
+/* Mobile */
+
 header {
     background-color: #EAC926;
+}
+
+.header__buscar{
+    padding-left: 15px;
 }
 
 .header__compra{
@@ -14,6 +20,7 @@ a {
 ul{
     list-style-type: none;
     text-align: left;
+    padding-left: 5px;
 }
 
 .precio{
@@ -37,6 +44,10 @@ main{
     background-color: #ebebeb;
 }
 
+img {
+    width: 300px;
+}
+
 .burger-menu{
     background-position: center;
 }
@@ -52,8 +63,12 @@ main{
     text-align: center;
 }
 
+footer section article i{
+    color:blue;
+    }
+
 .footer__iconos{
-    color: #1259c3;
+    color: blue;
     font-size: 2em;
     display: flex;
     justify-content: center;
