@@ -11,11 +11,13 @@
 <body> 
     <header>
         <div>
-            <img src="/images/logo-mercado-liebre.svg" alt="Logo">
+            <img class="header__logo" src="/images/logo-mercado-liebre.svg" alt="Logo">
         </div>
-        <input type="text" placeholder="Busca productos, marcas" required><br>
+        <div class="header__buscar">
+            <input type="text" placeholder="Busca productos, marcas" required><br>
         <button><i class="fa-solid fa-magnifying-glass"></i></button>
-        <p><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
+        <p class="header__compra"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
         <nav>
             <ul>
                 <li><a href="/Ofertas">Ofertas</a></li>
@@ -41,7 +43,7 @@
                 </div>
                 <div>
                     <h3>Basado en tu última visita</h3>
-                    <img width="300" src="/images/Cafetera Moulinex.jpeg" alt="Cafetera">
+                    <img src="/images/Cafetera Moulinex.jpeg" alt="Cafetera">
                     <p p class="precio">$6770</p>
                     <p p class="descuentos">40% off</p>
                     <h4>Cafetera Moulinex</h4>
@@ -73,7 +75,7 @@
             </article>       
             <article>
                 <div>
-                <h3>Basado en tu última visita</h3>
+                <h3>Sección de Ofertas</h3>
                 <img src="/images/Cafetera Moulinex.jpeg" alt="Cafetera">
                 <p p class="precio">$6770</p>
                 <p p class="descuentos">40% off</p>
@@ -110,19 +112,21 @@
 <footer>
     <section>
         <article>
-                <div p class="footer__iconos"><a class="fa-solid__pie"><i class="fa-solid fa-credit-card"></i></a></div>
+                <div class="footer__iconos"><a class="fa-solid__pie"><i class="fa-solid fa-credit-card"></i></a>
+                </div>
                 <h4 class="footer__h4">Pagá con tarjeta o en efectivo</h4>
             <div><p class="footer__text">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
             </div>
         </article>
         <article>
-                <div p class="footer__iconos"><a class="fa-solid__pie"><i class="fa-solid fa-gift"></i></a></div>
+                <div class="footer__iconos"><a class="fa-solid__pie"><i class="fa-solid fa-gift"></i></a>
+                </div>
                 <h4 class="footer__h4">Envío gratis desde $ 2.500</h4>
             <div><p class="footer__text">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
             </div>
         </article>
         <article>
-                <div p class="footer__iconos"><a class="fa-solid__pie"><i class="fa-solid fa-user-shield"></i></a></div>
+                <div class="footer__iconos"><a class="fa-solid__pie"><i class="fa-solid fa-user-shield"></i></a></div>
                 <h4 class="footer__h4">Seguridad, de principio a fin</h4>
             <div><p class="footer__text">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
             </div>
