@@ -2,6 +2,20 @@ header {
     background-color: #EAC926;
 }
 
+.header__compra{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+    text-align: left;
+}
+
 .precio{
     font-size: 18px;
     font-family: sans-serif;
@@ -19,7 +33,9 @@ h4{
     font-family: sans-serif;
 }
 
-
+main{
+    background-color: #ebebeb;
+}
 
 .burger-menu{
     background-position: center;
